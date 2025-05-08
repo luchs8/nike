@@ -133,8 +133,9 @@ p {
         align-items: center;
         text-align: center;
         gap: 30px;
-        
+
     }
+
     body::after {
         font-size: 200px;
     }
@@ -162,6 +163,7 @@ p {
     body {
         padding: 10px 20px;
     }
+
     body::after {
         font-size: 150px;
     }
@@ -204,10 +206,17 @@ p {
         padding: 10px;
         gap: 20px;
     }
+
+    body::before {
+        width: 582px;
+        left: -104px;
+        transform: rotate(-112deg);
+        height: 127%;
+    }
+
     body::after {
         font-size: 100px;
     }
-
 
     .imagem-tenis {
         width: 300px;
